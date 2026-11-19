@@ -6,7 +6,7 @@ const welcome = document.getElementById("welcome");
 const sendButton = document.getElementById("sendButton");
 
 // Endereço do nosso Backend
-const API_URL = "http://localhost:5000/chat";
+const API_URL = const API_URL = "https://chatbot-ia-s7f6.onrender.com/chat";
 
 // Adiciona uma mensagem na conversa
 function addMessage(text, sender) {
